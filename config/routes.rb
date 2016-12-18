@@ -8,5 +8,7 @@
     end
   resources :posts
   end
+  namespace :account do
+    resources :groups
     root 'groups#index'
   end
